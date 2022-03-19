@@ -2,7 +2,6 @@ class TweetJob < ApplicationJob
   queue_as :default
 
   def perform(tweet)
-    binding.irb
     return if tweet.is_published?
 
     #someones reschedules a tweet to the future
