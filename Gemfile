@@ -24,6 +24,8 @@ gem 'bcrypt', '~> 3.1.7'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
+
+# added pg gem here manually to try and change db to psql using command 'rails db:system:change --to=postgresql'
 gem 'pg', '~> 1.3', '>= 1.3.4'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
